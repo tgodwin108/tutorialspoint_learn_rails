@@ -12,11 +12,14 @@ Found a simple tutorial that didn't seem to worry about the version of Ruby or R
 * `sudo apt autoremove`
 * `sudo apt autoclean`
 
-## Install RVM and Ruby
+## Install RVM
 I already installed RVM and didn't write down the staps I used.
 
 Update RVM to the latest version with this command
 * `rvm get stable`
+
+You can uninstall RVM with the command:
+* `rvm implode`
 
 ## Install Ruby
 I wanted to install a newer version of ruby. I had 2.6.6 and wanted to install 2.7.2. When I used the command `rvm install 2.7` I got an error. I think the problem was that RVM needed a specific version of openssl to build parts of ruby 2.7.2. I ran this command `rvm pkg install openssl` and was told to use the `autolibs`option and not `pkg` option.
