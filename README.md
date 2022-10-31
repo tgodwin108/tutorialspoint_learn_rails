@@ -39,7 +39,7 @@ I tried this command:
 
 These two seemed to work: 
 * `rvm pkg install openssl`
-* `rvm reinstall 2.7.2 --force -C --with-openssl-dir=/usr/local/rvm/usr`
+* `rvm reinstall 2.7.2 --force -C --with-openssl-dir=/usr/share/rvm/usr`
 
 To get `rvm use 2.7.2` to work I had to open the shell with `--login` option
   * `/bin/bash --login`
