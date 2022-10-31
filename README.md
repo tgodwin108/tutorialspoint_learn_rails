@@ -21,8 +21,8 @@ Using the [RVM Install](https://rvm.io/rvm/install) page, I was directed to [thi
 * `apt-get install rvm`
 * `usermod -a -G rvm $USER`
 
-I need to figure out how to get the Visual Studio Code to open a terminal as a login session. Until I do that, I will need to
-`/bin/bash --login`
+I need to figure out how to get the Visual Studio Code to open a terminal as a login session. Until I do that, I will need to run:
+* `/bin/bash --login`
 
 Update RVM to the latest version with this command
 * `rvm get stable`
